@@ -1,0 +1,87 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-tr {
+    background-color: rgba(110, 106, 106, 0.151);
+
+}
+
+.shop {
+    width: 40px;
+    height: 40px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue {
+    background-color: rgba(57, 57, 247, 0.5);
+    align-self: center;
+    padding: 11px 6px;
+}
+
+.products {
+    width: 90px;
+    margin-top: 50px;
+}
+
+
+hr {
+    border-color:rgba(30, 30, 209, 0.5);
+    border-bottom: 5px solid rgba(30, 30, 209, 0.5);
+}
+
+table {
+    margin-top: 10px;
+    /* display: grid; */
+}
+
+th {
+    padding: 10px 0;
+    text-align:left;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; 
+  }
+
+form {
+    border: solid;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: orange;
+    padding: 5px;
+}
+
+input {
+    width: 40px;
+    height: 28px;
+}
+
+.flex p {
+    font-weight: bold;
+}
+
+.money {
+    color: blue;
+}
+
+.total {
+    position: relative;
+    left: 70%;
+    
+}
+.fas,.fa-times-circle {
+pointer-events: none;
+}
